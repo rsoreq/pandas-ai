@@ -20,7 +20,7 @@ cx_oracle = "^8.3.0"
 optional = true
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.4.0"
+pytest = "^8.0.0"
 pytest-cov = "^4.1.0"
 pytest-mock = "^3.11.1"
 pandasai-sql = { path = "../../../connectors/sql", develop = true }
