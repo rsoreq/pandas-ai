@@ -14,7 +14,7 @@ license = "Proprietary"
 python = ">=3.9,<3.12"
 pandasai = ">=3.0.0b4"
 qdrant-client = "1.4.0"
-numpy = "1.23.2"
+numpy = "1.26.4"
 sentence-transformers = "^2.2.2"
 
 [tool.poetry.group.test]
