@@ -13,7 +13,7 @@ license = "Proprietary"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
 pandasai = ">=3.0.0b4"
-chromadb = "^0.4.22"
+chromadb = "^0.6.0"
 numpy = "1.26.4"
 pydantic = "^2.0.0"
 onnxruntime = ">=1.23.2,<1.24"
