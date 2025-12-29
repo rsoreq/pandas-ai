@@ -1284,7 +1284,7 @@ google-sheets = ["beautifulsoup4 (>=4.12.2,<5.0.0)"]
 
 [[package]]
 name = "pandasai-sql"
-version = "0.1.3"
+version = "0.1.7"
 description = "SQL integration for PandasAI"
 optional = false
 python-versions = ">=3.9,<3.12"
@@ -1292,15 +1292,13 @@ files = []
 develop = true
 
 [package.dependencies]
-numpy = ">=1.23.2,<2.0.0"
 pandasai = ">=3.0.0b4"
 sqlalchemy = "^2.0.0"
 
 [package.extras]
-cockroach = []
-mysql = []
-postgres = []
-sqlite = []
+cockroach = ["cockroachdb (>=0.3.5,<0.4.0)"]
+mysql = ["pymysql (>=1.1.1,<2.0.0)"]
+postgres = ["psycopg2-binary (>=2.9.10,<3.0.0)"]
 
 [package.source]
 type = "directory"
