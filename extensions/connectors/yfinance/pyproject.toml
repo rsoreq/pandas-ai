@@ -16,7 +16,7 @@ pyarrow = "^14.0.1"
 optional = true
 
 [tool.poetry.group.test.dependencies]
-pytest = "^8.0.0"
+pytest = "^9.0.0"
 pytest-cov = "^4.1.0"
 pytest-mock = "^3.11.1"
 
