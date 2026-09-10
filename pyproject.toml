@@ -12,7 +12,7 @@ packages = [{include = "pandasai"}]
 "Repository" = "https://github.com/sinaptik-ai/pandas-ai"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
+python = ">=3.14,<3.15"
 python-dotenv = "^1.0.0"
 pandas = "^2.0.3"
 scipy = "1.10.1"

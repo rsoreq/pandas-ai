@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.12"
+python = ">=3.14,<3.15"
 pandasai = ">=3.0.0b4"
 yfinance = "^0.2.35"
 pyarrow = "^14.0.1"
