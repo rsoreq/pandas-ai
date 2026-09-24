@@ -13,7 +13,7 @@ license = "Proprietary"
 [tool.poetry.dependencies]
 python = ">=3.14,<3.15"
 pandasai = ">=3.0.0b4"
-pymilvus = {version = "^2.3.6", extras = ["model"]}
+pymilvus = {version = "^3.0.0", extras = ["model"]}
 numpy = "1.26.4"
 sentence-transformers = "^2.2.2"
 onnxruntime = "1.23.2"
