@@ -16,7 +16,7 @@ pandasai = ">=3.0.0b4"
 pymilvus = {version = "^2.3.6", extras = ["model"]}
 numpy = "1.26.4"
 sentence-transformers = "^2.2.2"
-onnxruntime = "1.23.2"
+onnxruntime = "1.30.0"
 
 [tool.poetry.group.test]
 optional = true
