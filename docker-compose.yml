@@ -1,6 +1,6 @@
 services:
   postgresql:
-    image: postgres:14.2-alpine
+    image: postgres:18.7-alpine@sha256:75dcac3dfb1cd01ca3536910bbc84128759362f8b118bf8c55b38a94f68f3b73
     environment:
       POSTGRES_USER: pandasai
       POSTGRES_PASSWORD: password123
